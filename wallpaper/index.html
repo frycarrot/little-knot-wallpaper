@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>小结 · GPT Badge</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="world" aria-label="会看向鼠标的立体徽章"></main>
+  <p id="error" hidden>暂时无法启动 3D 画面，请确认浏览器已开启硬件加速。</p>
+  <aside id="studio" hidden>
+    <header><span class="eyebrow">LITTLE KNOT / 01</span><h1>小结</h1><p>一个会把目光交给你的小伙伴。</p></header>
+    <div class="controls">
+      <label>背景 <input id="background" type="color" value="#b5c997"></label>
+      <label>徽章纹样 <input id="ink" type="color" value="#353530"></label>
+      <label>大小 <input id="size" type="range" min="0.55" max="1.4" step="0.05" value="1"></label>
+      <label>跟随幅度 <input id="tracking" type="range" min="0" max="1.5" step="0.05" value="1"></label>
+      <label>轻轻漂浮 <input id="float" type="checkbox" checked></label>
+    </div>
+    <footer><button id="reset">恢复初始</button><button id="hide">纯净预览 ↗</button></footer>
+    <small>点击轻压 · 无需按键，2 秒内来回划过头顶三次<br>5 秒内点 10 次，看看它的表情<br>按 H 隐藏 / 显示面板</small>
+  </aside>
+  <script src="settings.js"></script>
+  <script src="vendor/three.min.js"></script>
+  <script src="vendor/SVGLoader.js"></script>
+  <script src="logo.js"></script>
+  <script src="app.js?v=18"></script>
+</body>
+</html>
