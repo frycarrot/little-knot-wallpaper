@@ -1,0 +1,7 @@
+/archive/
+/dist/
+/checks/output/
+/checks/*.png
+/checks/*.json
+__pycache__/
+*.pyc
