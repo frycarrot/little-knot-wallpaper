@@ -1,0 +1,50 @@
+{
+  "title": "小结 · Little Knot",
+  "description": "低模立体徽章，视线跟随鼠标，随机眨眼和轻微漂浮。",
+  "type": "web",
+  "file": "index.html",
+  "general": {
+    "properties": {
+      "background": {
+        "type": "color",
+        "text": "背景颜色",
+        "value": "0.7098 0.7882 0.5922",
+        "order": 0
+      },
+      "ink": {
+        "type": "color",
+        "text": "徽章纹样",
+        "value": "0.2078 0.2078 0.1882",
+        "order": 1
+      },
+      "size": {
+        "type": "slider",
+        "text": "角色大小",
+        "value": 1,
+        "min": 0.55,
+        "max": 1.4,
+        "step": 0.05,
+        "precision": 2,
+        "fraction": true,
+        "order": 2
+      },
+      "tracking": {
+        "type": "slider",
+        "text": "跟随幅度",
+        "value": 1,
+        "min": 0,
+        "max": 1.5,
+        "step": 0.05,
+        "precision": 2,
+        "fraction": true,
+        "order": 3
+      },
+      "float": {
+        "type": "bool",
+        "text": "轻轻漂浮",
+        "value": true,
+        "order": 4
+      }
+    }
+  }
+}
